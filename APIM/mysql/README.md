@@ -25,13 +25,13 @@ anupamgogoi/wso2am-260-mysql
 
 # Docker Compose (MySQL + APIM)
 
-## Docker Container With MySQL
+## APIM Docker Container With MySQL
 In the [docker-compose-1.yml](https://github.com/anupamgogoi-wso2/docker-wso2/blob/master/APIM/mysql/docker-compose-1.yml), we explictely use the docker image of APIM that was configured for MySQL.
 ```
 docker-compose -f docker-compose-1.yml up
 ```
 
-## Docker Container Without MySQL
+## APIM Docker Container With H2 (Default)
 In the [docker-compose-2.yml](https://github.com/anupamgogoi-wso2/docker-wso2/blob/master/APIM/mysql/docker-compose-2.yml), we use the APIM docker image that was configured to use the default database (H2). Then we explitely map volumes to use MySQL configurations.
 ```
 docker-compose -f docker-compose-2.yml up
