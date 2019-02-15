@@ -1,0 +1,50 @@
+version: '2.3'
+services:
+  mysql:
+    image: mysql:5.7.19
+    container_name: mysql
+    ports:
+    - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+    - ./files/scripts:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-uroot", "-proot"]
+      interval: 30s
+      timeout: 60s
+      retries: 3
+  apim:
+    image: anupamgogoi/wso2am-260
+    container_name: wso2am
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+    - ./files/apim/api-manager.xml:/opt/wso2/wso2am-2.6.0/repository/conf/api-manager.xml
+    - ./files/apim/registry.xml:/opt/wso2/wso2am-2.6.0/repository/conf/registry.xml
+    - ./files/apim/user-mgt.xml:/opt/wso2/wso2am-2.6.0/repository/conf/user-mgt.xml
+    - ./files/apim/datasources/master-datasources.xml:/opt/wso2/wso2am-2.6.0/repository/conf/datasources/master-datasources.xml
+    - ./files/lib/mysql-connector-java-8.0.12.jar:/opt/wso2/wso2am-2.6.0/repository/components/lib/mysql-connector-java-8.0.12.jar
+    ports:
+    - "9763:9763"
+    - "9443:9443"
+    - "8280:8280"
+    - "8243:8243"
+
+  is-as-km:
+    image: anupamgogoi/is-as-km-570
+    container_name: is-as-km
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ./files/is/api-manager.xml:/opt/wso2/wso2is-km-5.7.0/repository/conf/api-manager.xml
+      - ./files/is/registry.xml:/opt/wso2/wso2is-km-5.7.0/repository/conf/registry.xml
+      - ./files/is/user-mgt.xml:/opt/wso2/wso2is-km-5.7.0/repository/conf/user-mgt.xml
+      - ./files/is/embedded-ldap.xml:/opt/wso2/wso2is-km-5.7.0/repository/conf/identity/embedded-ldap.xml
+      - ./files/is/identity.xml:/opt/wso2/wso2is-km-5.7.0/repository/conf/identity/identity.xml
+      - ./files/is/datasources/master-datasources.xml:/opt/wso2/wso2is-km-5.7.0/repository/conf/datasources/master-datasources.xml
+      - ./files/lib/mysql-connector-java-8.0.12.jar:/opt/wso2/wso2is-km-5.7.0/repository/components/lib/mysql-connector-java-8.0.12.jar
+    ports:
+      - "9444:9443"

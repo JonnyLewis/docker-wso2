@@ -1,0 +1,27 @@
+version: '2.3'
+services:
+  mysql:
+    image: mysql:5.7.19
+    container_name: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./files/scripts:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-uroot", "-proot"]
+      interval: 30s
+      timeout: 60s
+      retries: 3
+  apim:
+    image: anupamgogoi/wso2am-260-mysql
+    container_name: wso2am
+    depends_on:
+      mysql:
+        condition: service_healthy
+    ports:
+    - "9763:9763"
+    - "9443:9443"
+    - "8280:8280"
+    - "8243:8243"
