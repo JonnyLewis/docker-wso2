@@ -7,6 +7,7 @@ docker image rm anupamgogoi/wso2am-260-mysql
 ```
 
 ## Create Image
+In the [Dockerfile](https://github.com/anupamgogoi-wso2/docker-wso2/blob/master/APIM/mysql/Dockerfile), we explicitely configure the MySQL
 ```
 docker build -t anupamgogoi/wso2am-260-mysql .
 ```
