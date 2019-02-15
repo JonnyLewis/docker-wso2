@@ -1,16 +1,16 @@
-# Docker Container With H2 (Default)
+# APIM Docker Container With H2 (Default)
 
-## Remove Image if exists
+## Remove APIM Image if exists
 ```
 docker image rm anupamgogoi/wso2am-260
 ```
 
-## Create Image
+## Create APIM Image
 ```
 docker build -t anupamgogoi/wso2am-260 .
 ```
 
-## Run Image
+## Run APIM Image
 ```
 docker run -d -t --name wso2am-260 
 -p 9443:9443 \
