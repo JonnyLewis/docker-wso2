@@ -23,7 +23,7 @@ docker run -d -t --name wso2 \
 anupamgogoi/wso2am-260-mysql
 ```
 
-# Docker Compose
+# Docker Compose (MySQL + APIM)
 
 ## Docker Container With MySQL
 In the [docker-compose-1.yml](https://github.com/anupamgogoi-wso2/docker-wso2/blob/master/APIM/mysql/docker-compose-1.yml), we explictely use the docker image of APIM that was configured for MySQL.
