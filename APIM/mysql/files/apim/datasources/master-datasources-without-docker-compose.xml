@@ -36,7 +36,7 @@
             </jndiConfig>
             <definition type="RDBMS">
                 <configuration>
-                    <url>jdbc:mysql://192.168.43.63:3306/apimgtdb?useSSL=false</url>
+                    <url>jdbc:mysql://172.17.0.2:3306/apimgtdb?useSSL=false</url>
                     <username>root</username>
                     <password>root</password>
                     <driverClassName>com.mysql.jdbc.Driver</driverClassName>
@@ -59,7 +59,7 @@
             </jndiConfig>
             <definition type="RDBMS">
                 <configuration>
-                    <url>jdbc:mysql://192.168.43.63:3306/regdb?useSSL=false</url>
+                    <url>jdbc:mysql://172.17.0.2:3306/regdb?useSSL=false</url>
                     <username>root</username>
                     <password>root</password>
                     <driverClassName>com.mysql.jdbc.Driver</driverClassName>
@@ -82,7 +82,7 @@
             <definition type="RDBMS">
                 <configuration>
                     <!-- Use IP of the machine -->
-                    <url>jdbc:mysql://192.168.43.63:3306/userdb?useSSL=false</url>
+                    <url>jdbc:mysql://172.17.0.2:3306/userdb?useSSL=false</url>
                     <username>root</username>
                     <password>root</password>
                     <driverClassName>com.mysql.jdbc.Driver</driverClassName>
