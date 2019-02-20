@@ -9,8 +9,8 @@ To build the docker image you must have the **WSO2 API Manager** and **IS as Key
 Here, we make composition of three docker images,
 
 1. MySQL
-2. anupamgogoi/wso2am-260 (You must have this in your local registry.If you don't have create it first)
-3. anupamgogoi/is-as-km-570 (You must have this in your local registry.If you don't have create it first)
+2. anupamgogoi/wso2am-260 (**You must have this in your local registry.If you don't have create it first**)
+3. anupamgogoi/is-as-km-570 (**You must have this in your local registry.If you don't have create it first**)
 
 In the [docker-compose.yml](https://github.com/anupamgogoi-wso2/docker-wso2/blob/master/APIM-WITH-IS-AS-KM/mysql/docker-compose.yml), we first configure MySQL to create the necessary databases and scripts. 
 
