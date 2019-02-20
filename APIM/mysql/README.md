@@ -15,3 +15,5 @@ In the [docker-compose-2.yml](https://github.com/anupamgogoi-wso2/docker-wso2/bl
 ```
 docker-compose -f docker-compose-2.yml up
 ```
+
+# Docker File (MySQL Container + APIM Container With MySQL Config)
