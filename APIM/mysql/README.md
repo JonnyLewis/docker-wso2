@@ -17,3 +17,4 @@ docker-compose -f docker-compose-2.yml up
 ```
 
 # Docker File (MySQL Container + APIM Container With MySQL Config)
+![](https://github.com/anupamgogoi-wso2/docker-wso2/blob/master/APIM/mysql/files/product/access-mysql-container-from-another-container.jpg?raw=true)
