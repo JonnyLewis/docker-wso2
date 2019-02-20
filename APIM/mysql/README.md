@@ -17,32 +17,6 @@ docker-compose -f docker-compose-2.yml up
 ```
 
 # Docker File (MySQL Container + APIM Container With MySQL Config)
-![](https://github.com/anupamgogoi-wso2/docker-wso2/blob/master/APIM/mysql/files/product/access-mysql-container-from-another-container.jpg?raw=true)
+TODO
 
-Here is a sample configuration of datasource in master-datasources.xml,
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<datasource>
-   <name>WSO2UM_DB</name>
-   <description>The datasource used by user manager</description>
-   <jndiConfig>
-      <name>jdbc/WSO2UM_DB</name>
-   </jndiConfig>
-   <definition type="RDBMS">
-      <configuration>
-         <!-- Use IP of the machine -->
-         <url>jdbc:mysql://192.168.43.63:3306/userdb?useSSL=false</url>
-         <username>root</username>
-         <password>root</password>
-         <driverClassName>com.mysql.jdbc.Driver</driverClassName>
-         <maxActive>80</maxActive>
-         <maxWait>60000</maxWait>
-         <minIdle>5</minIdle>
-         <testOnBorrow>true</testOnBorrow>
-         <validationQuery>SELECT 1</validationQuery>
-         <validationInterval>30000</validationInterval>
-         <defaultAutoCommit>true</defaultAutoCommit>
-      </configuration>
-   </definition>
-</datasource>
-```
+
