@@ -10,7 +10,7 @@ COPY files/apim/registry.xml /opt/wso2/wso2am-2.6.0/repository/conf/registry.xml
 COPY files/apim/user-mgt.xml /opt/wso2/wso2am-2.6.0/repository/conf/user-mgt.xml
 
 # Copy datasource configs.
-COPY files/apim/datasources/master-datasources.xml /opt/wso2/wso2am-2.6.0/repository/conf/datasources/master-datasources.xml
+COPY files/apim/datasources/master-datasources-without-docker-compose.xml /opt/wso2/wso2am-2.6.0/repository/conf/datasources/master-datasources.xml
 
 # Copy mysql-driver
 COPY files/lib/mysql-connector-java-8.0.12.jar /opt/wso2/wso2am-2.6.0/repository/components/lib/mysql-connector-java-8.0.12.jar
