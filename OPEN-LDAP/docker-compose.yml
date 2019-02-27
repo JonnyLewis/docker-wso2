@@ -1,0 +1,15 @@
+version: '2.3'
+services:
+  open-ldap:
+    image: osixia/openldap:1.2.3
+    container_name: open-ldap
+    ports:
+      - "389:389"
+      - "636:636"
+  ldap-admin:
+    image: osixia/phpldapadmin:0.7.2
+    container_name: ldap-admin
+    ports:
+      - "6443:443"
+    environment:
+      PHPLDAPADMIN_LDAP_HOSTS: open-ldap # Refer to the
