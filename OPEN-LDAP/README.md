@@ -14,3 +14,6 @@ Password: admin
 
 For detail information check [this](https://www.youtube.com/watch?v=p857CNi60LM) YouTube video from 06:30 mins onwards.
 
+# Configure LDAP with Identity Server
+Check the configuration as shown below,
+![](https://github.com/anupamgogoi-wso2/docker-wso2/blob/master/OPEN-LDAP/doc/is-config-ldap.jpg?raw=true)
