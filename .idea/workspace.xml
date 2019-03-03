@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="224983db-186d-466e-b50e-874f7ea3e274" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/APIM/centos/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIM/centos/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/APIM/centos/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,22 +15,22 @@
     <session id="-2090114731">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.3" value="5" />
+          <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="28" />
+          <entry key="Dockerfile" value="30" />
           <entry key="gitignore" value="6" />
-          <entry key="md" value="22" />
+          <entry key="md" value="24" />
           <entry key="sql" value="3" />
           <entry key="xml" value="24" />
           <entry key="yml" value="23" />
@@ -40,27 +39,27 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="DBN-SQL" value="3" />
-          <entry key="Dockerfile" value="28" />
+          <entry key="Dockerfile" value="30" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Specification" value="22" />
+          <entry key="Specification" value="24" />
           <entry key="XML" value="24" />
           <entry key="YAML" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="898" />
+          <entry key="Dockerfile" value="901" />
           <entry key="gitignore" value="123" />
-          <entry key="md" value="45" />
+          <entry key="md" value="57" />
           <entry key="xml" value="112" />
           <entry key="yml" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dockerfile" value="898" />
+          <entry key="Dockerfile" value="901" />
           <entry key="PLAIN_TEXT" value="123" />
-          <entry key="Specification" value="45" />
+          <entry key="Specification" value="57" />
           <entry key="XML" value="112" />
           <entry key="YAML" value="190" />
         </counts>
@@ -68,21 +67,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APIM/centos/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APIM/h2/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="150">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -126,6 +116,7 @@
         <option value="$PROJECT_DIR$/OPEN-LDAP/docker-compose.yml" />
         <option value="$PROJECT_DIR$/APIM/h2/Dockerfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/APIM/centos/files/README.md" />
         <option value="$PROJECT_DIR$/APIM/centos/Dockerfile" />
       </list>
     </option>
@@ -141,7 +132,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,47 +152,25 @@
               <item name="APIM" type="462c0819:PsiDirectoryNode" />
               <item name="centos" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="docker-wso2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker-wso2" type="462c0819:PsiDirectoryNode" />
-              <item name="APIM" type="462c0819:PsiDirectoryNode" />
-              <item name="centos" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docker-wso2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker-wso2" type="462c0819:PsiDirectoryNode" />
-              <item name="APIM" type="462c0819:PsiDirectoryNode" />
-              <item name="centos" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docker-wso2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker-wso2" type="462c0819:PsiDirectoryNode" />
-              <item name="APIM" type="462c0819:PsiDirectoryNode" />
-              <item name="h2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551557275411" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551557559826" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/APIM/centos/files" />
       <recent name="$PROJECT_DIR$/APIM/centos/files/product" />
       <recent name="$PROJECT_DIR$/APIM/h2/files/product" />
       <recent name="$PROJECT_DIR$/OPEN-LDAP/doc" />
       <recent name="$PROJECT_DIR$/APIM/mysql/files/product" />
-      <recent name="$PROJECT_DIR$/EI/h2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/EI/h2" />
@@ -234,7 +204,7 @@
   <component name="ToolWindowManager">
     <frame x="57" y="23" width="1383" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27665922" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17524235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -338,13 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APIM/h2/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EI/h2/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -420,6 +383,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APIM/h2/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIM/centos/files/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="143" lean-forward="true" selection-start-line="19" selection-end-line="19" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/APIM/h2/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -429,8 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/APIM/centos/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
