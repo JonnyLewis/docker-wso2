@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="224983db-186d-466e-b50e-874f7ea3e274" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIM/centos/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/APIM/centos/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +28,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="30" />
-          <entry key="gitignore" value="6" />
+          <entry key="gitignore" value="7" />
           <entry key="md" value="24" />
           <entry key="sql" value="3" />
           <entry key="xml" value="24" />
@@ -40,7 +39,7 @@
         <counts>
           <entry key="DBN-SQL" value="3" />
           <entry key="Dockerfile" value="30" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="7" />
           <entry key="Specification" value="24" />
           <entry key="XML" value="24" />
           <entry key="YAML" value="23" />
@@ -48,8 +47,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="901" />
-          <entry key="gitignore" value="123" />
+          <entry key="Dockerfile" value="920" />
+          <entry key="gitignore" value="132" />
           <entry key="md" value="57" />
           <entry key="xml" value="112" />
           <entry key="yml" value="190" />
@@ -57,8 +56,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dockerfile" value="901" />
-          <entry key="PLAIN_TEXT" value="123" />
+          <entry key="Dockerfile" value="920" />
+          <entry key="PLAIN_TEXT" value="132" />
           <entry key="Specification" value="57" />
           <entry key="XML" value="112" />
           <entry key="YAML" value="190" />
@@ -69,10 +68,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/APIM/centos/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="30">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -115,9 +114,9 @@
         <option value="$PROJECT_DIR$/APIM/mysql/files/apim/datasources/master-datasources-without-docker-compose.xml" />
         <option value="$PROJECT_DIR$/OPEN-LDAP/docker-compose.yml" />
         <option value="$PROJECT_DIR$/APIM/h2/Dockerfile" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/APIM/centos/files/README.md" />
         <option value="$PROJECT_DIR$/APIM/centos/Dockerfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -151,6 +150,13 @@
               <item name="docker-wso2" type="462c0819:PsiDirectoryNode" />
               <item name="APIM" type="462c0819:PsiDirectoryNode" />
               <item name="centos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docker-wso2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-wso2" type="462c0819:PsiDirectoryNode" />
+              <item name="APIM" type="462c0819:PsiDirectoryNode" />
+              <item name="centos" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,8 +209,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="23" width="1383" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17524235" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647278" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -222,7 +229,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.48407644" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.48407644" />
       <window_info anchor="bottom" id="Docker" order="9" weight="0.42292994" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Console" order="11" />
@@ -376,13 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APIM/h2/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -406,8 +406,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/APIM/centos/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="45">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
