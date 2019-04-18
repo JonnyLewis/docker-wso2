@@ -6,10 +6,13 @@ RUN groupadd admin
 RUN useradd -g admin wso2
 
 
-# Copy the necessary files.
+# Copy the necessary product zip.
 COPY files/product/jdk1.8.0_201 /home/wso2/jdk1.8.0_201
 COPY files/product/wso2am-2.6.0 /home/wso2/wso2am-2.6.0
 COPY files/lib/mysql-connector-java-8.0.12.jar /home/wso2/wso2am-2.6.0/repository/components/lib/mysql-connector-java-8.0.12.jar
+
+# Copy config file/s.
+COPY files/apim/axis2.xml /home/wso2/wso2am-2.6.0/repository/conf/axis2/axis2.xml
 
 # Give permission to the user.
 RUN chown -R wso2:admin /home/wso2

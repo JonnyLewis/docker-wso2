@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="224983db-186d-466e-b50e-874f7ea3e274" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/APIM/centos/files/apim/axis2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIM/centos/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/APIM/centos/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,42 +16,45 @@
     <session id="-2090114731">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="31" />
+          <entry key="Dockerfile" value="37" />
           <entry key="gitignore" value="7" />
+          <entry key="json" value="4" />
           <entry key="md" value="25" />
           <entry key="sql" value="3" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="24" />
-          <entry key="yml" value="23" />
+          <entry key="xml" value="28" />
+          <entry key="yml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="DBN-SQL" value="3" />
-          <entry key="Dockerfile" value="31" />
+          <entry key="Dockerfile" value="37" />
+          <entry key="JSON" value="4" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Specification" value="25" />
-          <entry key="XML" value="24" />
-          <entry key="YAML" value="23" />
+          <entry key="XML" value="28" />
+          <entry key="YAML" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="920" />
+          <entry key="Dockerfile" value="1062" />
           <entry key="gitignore" value="132" />
+          <entry key="json" value="1" />
           <entry key="md" value="57" />
           <entry key="xml" value="112" />
           <entry key="yml" value="190" />
@@ -57,7 +62,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dockerfile" value="920" />
+          <entry key="Dockerfile" value="1062" />
+          <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="132" />
           <entry key="Specification" value="57" />
           <entry key="XML" value="112" />
@@ -67,7 +73,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -75,6 +81,8 @@
       <find>auth</find>
       <find>192.168.43.63</find>
       <find>lo</find>
+      <find>hostname</find>
+      <find>HostnameVerifier</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -106,20 +114,28 @@
         <option value="$PROJECT_DIR$/OPEN-LDAP/docker-compose.yml" />
         <option value="$PROJECT_DIR$/APIM/h2/Dockerfile" />
         <option value="$PROJECT_DIR$/APIM/centos/files/README.md" />
-        <option value="$PROJECT_DIR$/APIM/centos/Dockerfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/APIM/centos/files/apim/site.json" />
+        <option value="$PROJECT_DIR$/APIM/centos/files/product/wso2am-2.6.0/repository/conf/axis2/axis2.xml" />
+        <option value="$PROJECT_DIR$/APIM/centos/Dockerfile" />
+        <option value="$PROJECT_DIR$/APIM/centos/files/apim/axis2.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="170" />
+    <option name="y" value="73" />
+    <option name="width" value="1383" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,51 +152,31 @@
               <item name="docker-wso2" type="b2602c69:ProjectViewProjectNode" />
               <item name="docker-wso2" type="462c0819:PsiDirectoryNode" />
               <item name="APIM" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="centos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="docker-wso2" type="b2602c69:ProjectViewProjectNode" />
               <item name="docker-wso2" type="462c0819:PsiDirectoryNode" />
               <item name="APIM" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="centos" type="462c0819:PsiDirectoryNode" />
               <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="docker-wso2" type="b2602c69:ProjectViewProjectNode" />
               <item name="docker-wso2" type="462c0819:PsiDirectoryNode" />
               <item name="APIM" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="apim" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docker-wso2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker-wso2" type="462c0819:PsiDirectoryNode" />
-              <item name="APIM" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="centos" type="462c0819:PsiDirectoryNode" />
               <item name="files" type="462c0819:PsiDirectoryNode" />
               <item name="apim" type="462c0819:PsiDirectoryNode" />
-              <item name="datasources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docker-wso2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker-wso2" type="462c0819:PsiDirectoryNode" />
-              <item name="APIM" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551982682699" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552494548704" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -189,11 +185,11 @@
       <recent name="$PROJECT_DIR$/EI/h2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/APIM/centos/files/product" />
+      <recent name="$PROJECT_DIR$/APIM/centos/files/apim" />
       <recent name="$PROJECT_DIR$/APIM/centos/files" />
+      <recent name="$PROJECT_DIR$/APIM/centos/files/product" />
       <recent name="$PROJECT_DIR$/APIM/h2/files/product" />
       <recent name="$PROJECT_DIR$/OPEN-LDAP/doc" />
-      <recent name="$PROJECT_DIR$/APIM/mysql/files/product" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,9 +218,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="57" y="23" width="1383" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26609442" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29381058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -242,7 +238,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39156628" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39363056" />
       <window_info anchor="bottom" id="Docker" order="9" weight="0.42292994" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Console" order="11" />
@@ -264,13 +260,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/APIM-WITH-IS-AS-KM/mysql/README.md">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APIM/mysql/docker-compose-1.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APIM/mysql/files/scripts/apim_mysql5.7.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -314,13 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APIM/mysql/docker-compose-2.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EI/h2/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -332,13 +314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APIM/mysql/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -427,10 +402,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APIM/mysql/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="127" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIM/centos/files/product/wso2am-2.6.0/repository/deployment/server/jaggeryapps/store/site/conf/site.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIM/centos/files/product/wso2am-2.6.0/repository/conf/axis2/axis2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="521" column="47" selection-start-line="521" selection-start-column="47" selection-end-line="521" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIM/centos/files/apim/site.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIM/mysql/docker-compose-1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIM/mysql/docker-compose-2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/APIM/centos/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIM/centos/files/apim/axis2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="880" selection-start-line="880" selection-end-line="880" />
         </state>
       </provider>
     </entry>
