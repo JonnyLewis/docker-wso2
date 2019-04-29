@@ -1,4 +1,4 @@
-# IS-AS-KM Docker Container H2 (Default)
+# Identity Server Docker Container H2 (Default)
 
 ## Pre-Requisites
 To build the docker image you must have the **WSO2 IS** product downloaded and extraced under **/files/product** directory.
