@@ -20,3 +20,6 @@ Check the configuration as shown below,
 
 Put a good cn as shown in the diagram:
 ![](https://github.com/anupamgogoi-wso2/docker-wso2/blob/master/OPEN-LDAP/doc/good-cnmae.png?raw=true)
+
+# Note
+If you are going to use this LDAP for SSO with WSO2 IS, add **displayName** attribute to each user.
