@@ -15,11 +15,16 @@ Password: admin
 For detail information check [this](https://www.youtube.com/watch?v=p857CNi60LM) YouTube video from 06:30 mins onwards.
 
 # Configure LDAP with Identity Server
+Put a good cn as shown in the diagram:
+
+![](https://github.com/anupamgogoi-wso2/docker-wso2/blob/master/OPEN-LDAP/doc/good-cnmae.png?raw=true)
+
+
 Check the configuration as shown below,
+
 ![](https://github.com/anupamgogoi-wso2/docker-wso2/blob/master/OPEN-LDAP/doc/is-config-ldap.jpg?raw=true)
 
-Put a good cn as shown in the diagram:
-![](https://github.com/anupamgogoi-wso2/docker-wso2/blob/master/OPEN-LDAP/doc/good-cnmae.png?raw=true)
+
 
 # Note
 If you are going to use this LDAP for SSO with WSO2 IS, add **displayName** attribute to each user.
