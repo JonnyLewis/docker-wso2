@@ -22,7 +22,7 @@ Put a good cn as shown in the diagram:
 
 Check the configuration as shown below,
 
-![](https://github.com/anupamgogoi-wso2/docker-wso2/blob/master/OPEN-LDAP/doc/is-config-ldap.jpg?raw=true)
+![](https://raw.githubusercontent.com/anupamgogoi-wso2/docker-wso2/master/OPEN-LDAP/doc/is-config-ldap.png)
 
 
 
