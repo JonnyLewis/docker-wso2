@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="224983db-186d-466e-b50e-874f7ea3e274" name="Default Changelist" comment="" />
+    <list default="true" id="224983db-186d-466e-b50e-874f7ea3e274" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/APIM/h2/Dockerfile.bkp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIM/h2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/APIM/h2/Dockerfile" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,20 +36,21 @@
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565873831536" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/OPEN-LDAP/doc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/APIM/h2/files/product" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/APIM/h2" />
       <recent name="$PROJECT_DIR$/IS/h2" />
       <recent name="$PROJECT_DIR$/EI/h2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/APIM/h2/files/product" />
       <recent name="$PROJECT_DIR$/OPEN-LDAP/doc" />
       <recent name="$PROJECT_DIR$/IS/centos" />
       <recent name="$PROJECT_DIR$/APIM/openjdk/kube" />
       <recent name="$PROJECT_DIR$/APIM/openjdk/files/product" />
-      <recent name="$PROJECT_DIR$/APIM/openjdk" />
     </key>
   </component>
   <component name="RunDashboard">

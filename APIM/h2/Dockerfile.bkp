@@ -1,0 +1,20 @@
+FROM adoptopenjdk/openjdk8:jdk8u192-b12-alpine
+ARG USER=wso2carbon
+ARG USER_ID=802
+ARG USER_GROUP=wso2
+ARG USER_GROUP_ID=802
+ARG USER_HOME=/home/${USER}
+ARG WSO2_SERVER_HOME=${USER_HOME}/wso2am-2.6.0
+
+
+RUN  addgroup -g ${USER_GROUP_ID} ${USER_GROUP}
+RUN  adduser -u ${USER_ID} -D -g '' -h ${USER_HOME} -G ${USER_GROUP} ${USER}
+
+COPY --chown=wso2carbon:wso2 files/product/wso2am-2.6.0 ${WSO2_SERVER_HOME}/
+COPY --chown=wso2carbon:wso2 files/product/api-import-export-2.6.0-v10.war ${WSO2_SERVER_HOME}/repository/deployment/server/webapps/api-import-export-2.6.0-v10.war
+
+USER ${USER_ID}
+WORKDIR ${USER_HOME}
+
+EXPOSE 8280 8243 9763 9443 9099 5672 9711 9611 7711 7611 10397
+ENTRYPOINT ["/home/wso2carbon/wso2am-2.6.0/bin/wso2server.sh"]
